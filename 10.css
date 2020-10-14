@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:black;
+    
+}
+h1{
+   color: cornsilk;
+   text-align: center; 
+}
+.formregis{
+    width: 98%;
+    max-width: 600px;
+    margin: auto;
+    background: #1BACB7;
+    border-radius: 10px;
+    min-width: 600px;
+    
+
+}
+.titulo{
+    background: #FFFF00;
+   
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.contenedor{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+.input50{
+    width: 48%;
+}
+.input100{
+    width: 100%;
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    /*borde el las cajas*/
+    border: 1px transparent black;
+}
+.boton{
+    background: #FA58AC;
+    color: cornsilk;
+  padding: 15px 210px;
+    width: 100%;
+    font-size: 20px;
+}
+.ingresa{
+    width: 100%;
+    margin: 15x;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+.boton:hover{
+    background-color: rgb(241, 150, 13);
+    color: black;
+    
+    
+}
+    
+
+select{
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    /*borde el las cajas*/
+    border: 1px transparent black;
+}
